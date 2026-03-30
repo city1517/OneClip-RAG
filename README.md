@@ -44,7 +44,10 @@ bash fine_grained.sh
 
 #### 4. Checkpoints
 What`s more, we also open-sourced the CLIP model weights that were fine-tuned in the paper.
-https://huggingface.co/Luminousllsa/OneClip-RAG
+| Model  | Link |
+|--------|------|
+| CLIP   | [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-CLIP-yellow?logo=huggingface)](https://huggingface.co/Luminousllsa/OneClip-RAG/tree/main/CLIP) |
+| SigLip | [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-SigLip-yellow?logo=huggingface)](https://huggingface.co/Luminousllsa/OneClip-RAG/tree/main/SigLip) |
 
 ### OneClip-RAG
 
