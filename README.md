@@ -42,6 +42,9 @@ bash coarse_grained.sh
 bash fine_grained.sh 
 ```
 
+#### 4. Checkpoints
+What`s more, we also open-sourced the CLIP model weights that were fine-tuned in the paper.
+https://huggingface.co/Luminousllsa/OneClip-RAG
 
 ### OneClip-RAG
 
@@ -75,10 +78,6 @@ We follow the evaluation protocol of [LLaVA-v1.5](https://github.com/haotian-liu
 bash scripts/eval/longvideobench_eval.sh
 # MLVU
 bash scripts/eval/mlvu_eval.sh
-# QaEgo4D 
-bash scripts/eval/qaego4d_eval.sh
-# TVQA-Long
-bash scripts/eval/tvqalong_eval.sh
 # Video-MME
 bash scripts/eval/videomme_eval.sh
 ```
